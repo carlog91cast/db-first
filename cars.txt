@@ -1,21 +1,21 @@
 nome tabella: auto_usate
 
-id - numero - int - PRIMAY_KEY - AUTO_INCREMENT
+id - intero - int - PRIMAY_KEY - AUTO_INCREMENT
 marca - stringa - VARCHAR(20) - NOTNULL
 modello - stringa - VARCHAR(30) - NOTNULL
-numero_telaio - numero - MEDIUMINT - UNIQUE - NOTNULL
-km - numero - MEDIUMINT - NOTNULL
+numero_telaio - intero - MEDIUMINT - UNIQUE - NOTNULL
+km - intero - MEDIUMINT - NOTNULL
 trasmissione - stringa - VARCHAR(20) - NULL
 trazione - stringa - VARCHAR(10) - NULL
 alimentazione - stringa - VARCHAR(15) - NOTNULL
-cilindrata - numero - SMALLINT - NOTNULL
-potenza - numero - SMALLINT - NOTNULL
-lunghezza - numero - TINYINT - NULL
+cilindrata - intero - SMALLINT - NOTNULL
+potenza - intero - SMALLINT - NOTNULL
+lunghezza - intero - TINYINT - NULL
 anno_di_immatricolazione - data - DATE - NOTNULL
 cambio - stringa - VARCHAR(15) - NOTNULL
-posti_a_sedere - numero - TINYINT - NULL
-capacità_bagagliaio - numero - SMALLINT - NULL
-coppia - numero - SMALLINT - NULL 
+posti_a_sedere - intero - TINYINT - NULL
+capacità_bagagliaio - intero - SMALLINT - NULL
+coppia - intero - SMALLINT - NULL 
 anno - data - YEAR - NOTNULL
 descrizione - stringa - TEXT - NULL
 prezzo - float - FLOAT(8,2) - NOTNULL
